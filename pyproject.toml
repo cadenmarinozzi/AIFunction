@@ -1,0 +1,17 @@
+[project]
+name = "AIFunction-nekumelon"
+version = "0.0.1"
+authors = [
+  { name="nekumelon", email="nekumelon@gmail.com" },
+]
+description = "Generate realtime AI Functions!"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nekumelon/AIFunction"

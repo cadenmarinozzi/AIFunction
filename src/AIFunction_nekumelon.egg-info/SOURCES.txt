@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/AIFunction_nekumelon.egg-info/PKG-INFO
+src/AIFunction_nekumelon.egg-info/SOURCES.txt
+src/AIFunction_nekumelon.egg-info/dependency_links.txt
+src/AIFunction_nekumelon.egg-info/top_level.txt
+src/modules/web/OpenAI/OpenAI.py
