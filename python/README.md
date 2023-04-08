@@ -14,6 +14,14 @@ pip install AIFunction
 
 To use AIFunction, you must have an OpenAI API key.
 
+```
+aiFunction(name <string>, description <string>, installPackages <bool>)
+```
+
+- name: The name of the function. Ex: "time", "current_president"
+- description: A description of the function. Ex: "Returns the current time", "Returns the date in the format YYYY-MM-DD"
+- installPackages: Whether or not to install the required packages for the function. Ex: "time" requires the "datetime" package, so it will be installed if this is set to true.
+
 Firstly, add a .env file to your project, and add the following:
 
 ```
