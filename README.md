@@ -1,6 +1,6 @@
 # AI Function
 
-<img src='./assets/logo.png'></img>
+<img width=200 src='./assets/logo.png'></img>
 
 Generate realtime AI Functions!
 
