@@ -22,6 +22,8 @@ npm install aifunction
 
 ## Usage
 
+To use AIFunction, you must have an OpenAI API key.
+
 ### Python
 
 Firstly, add a .env file to your project, and add the following:
