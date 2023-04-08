@@ -1,0 +1,19 @@
+{
+  "name": "aifunction",
+  "displayName": "AIFunction",
+  "description": "Generate realtime AI Functions!",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": {
+    "name": "nekumelon",
+    "url": "https://github.com/nekumelon",
+    "email": "nekumelon@gmail.com"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}

@@ -66,5 +66,3 @@ def aiFunction(function, description, installPackages):
             return '';
 
     return output;
-
-print(aiFunction('time', 'Returns the current time.'));

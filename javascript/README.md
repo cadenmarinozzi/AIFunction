@@ -4,16 +4,6 @@ Generate realtime AI Functions!
 
 ## Installation
 
-### Python
-
-To install AI Function for python, run:
-
-```bash
-pip install AIFunction
-```
-
-### Node.js
-
 To install AI Function for node.js, run:
 
 ```bash
@@ -21,29 +11,6 @@ npm install aifunction
 ```
 
 ## Usage
-
-### Python
-
-Firstly, add a .env file to your project, and add the following:
-
-```
-OPENAI_API_KEY="key_here"
-```
-
-Then, import the aiFunction function:
-
-```python
-from AIFunction import aiFunction
-```
-
-Now, you can use the aiFunction function to generate AI Functions!
-
-```python
-print(aiFunction("bitcoin_price", "Returns the current price of bitcoin."));
-# --> 27002.055
-```
-
-### Node.js
 
 Firstly, add a .env file to your project, and add the following:
 
@@ -68,13 +35,13 @@ Now, you can use the aiFunction function to generate AI Functions!
 
 ## What is an AI Function?
 
-Let's say you want to write a function to get the current time in python. All you have to do is:
+Let's say you want to write a function to get the current time in javascript. All you have to do is:
 
-```python
-from AIFunction import aiFunction
-
-print(aiFunction("time", "Returns the current time."));
-# --> 12:00:00
+```javascript
+(async () => {
+  console.log(await aiFunction("time", "Return the current time"));
+})();
+// --> 12:00:00
 ```
 
 ## How does it work?
