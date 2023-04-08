@@ -2,7 +2,7 @@
   "name": "aifunction",
   "displayName": "AIFunction",
   "description": "Generate realtime AI Functions!",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "main": "./src/main.js",
   "icon": "../assets/icon.png",
   "keywords": [
@@ -15,7 +15,8 @@
   ],
   "homepage": "https://github.com/nekumelon/AIFunction",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "publish": "npm publish --access public"
   },
   "author": {
     "name": "nekumelon",

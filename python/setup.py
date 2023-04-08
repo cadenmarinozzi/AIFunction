@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "AIFunction",
-    version = "1.0.0",
+    version = "1.0.9",
     author = "nekumelon",
     author_email = "nekumelon@gmail.com",
     description = "Generate realtime AI Functions!",
@@ -20,6 +20,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir = {"": "src"},
-    packages = setuptools.find_packages(where="src"),
+    packages = (setuptools.find_packages(where = "src") + setuptools.find_packages(where = ".") ),
     python_requires = ">=3.6"
 )
