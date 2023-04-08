@@ -4,6 +4,15 @@
   "description": "Generate realtime AI Functions!",
   "version": "1.0.0",
   "main": "./src/main.js",
+  "keywords": [
+    "AIFunction",
+    "AI Functions",
+    "GPT",
+    "ChatGPT",
+    "OpenAI",
+    "Generative Functions"
+  ],
+  "homepage": "https://github.com/nekumelon/AIFunction",
   "scripts": {
     "start": "node ."
   },
