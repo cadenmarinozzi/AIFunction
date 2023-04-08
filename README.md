@@ -2,6 +2,35 @@
 
 Generate realtime AI Functions!
 
+## Installation
+
+To install AI Function, run:
+
+```bash
+pip install AIFunction
+```
+
+## Usage
+
+Firstly, add a .env file to your project, and add the following:
+
+```
+OPENAI_API_KEY="key_here"
+```
+
+Then, import the aiFunction function:
+
+```python
+from AIFunction import aiFunction
+```
+
+Now, you can use the aiFunction function to generate AI Functions!
+
+```python
+print(aiFunction("bitcoin_price", "Returns the current price of bitcoin."));
+# --> 27002.055
+```
+
 ## What is an AI Function?
 
 Let's say you want to write a function to get the current time in python. All you have to do is:

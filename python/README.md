@@ -1,19 +1,35 @@
-Metadata-Version: 2.1
-Name: AIFunction-nekumelon
-Version: 0.0.1
-Summary: Generate realtime AI Functions!
-Author-email: nekumelon <nekumelon@gmail.com>
-Project-URL: Homepage, https://github.com/nekumelon/AIFunction
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.7
-Description-Content-Type: text/markdown
-License-File: LICENSE
-
 # AI Function
 
 Generate realtime AI Functions!
+
+## Installation
+
+To install AI Function, run:
+
+```bash
+pip install AIFunction
+```
+
+## Usage
+
+Firstly, add a .env file to your project, and add the following:
+
+```
+OPENAI_API_KEY="key_here"
+```
+
+Then, import the aiFunction function:
+
+```python
+from AIFunction import aiFunction
+```
+
+Now, you can use the aiFunction function to generate AI Functions!
+
+```python
+print(aiFunction("bitcoin_price", "Returns the current price of bitcoin."));
+# --> 27002.055
+```
 
 ## What is an AI Function?
 
