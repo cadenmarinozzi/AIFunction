@@ -1,5 +1,7 @@
 # AI Function
 
+<img src='./assets/logo.png'></img>
+
 Generate realtime AI Functions!
 
 ## Installation

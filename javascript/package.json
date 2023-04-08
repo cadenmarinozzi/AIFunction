@@ -2,8 +2,9 @@
   "name": "aifunction",
   "displayName": "AIFunction",
   "description": "Generate realtime AI Functions!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./src/main.js",
+  "icon": "../assets/icon.png",
   "keywords": [
     "AIFunction",
     "AI Functions",
