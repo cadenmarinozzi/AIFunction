@@ -13,14 +13,14 @@
     "OpenAI",
     "Generative Functions"
   ],
-  "homepage": "https://github.com/nekumelon/AIFunction",
+  "homepage": "https://github.com/cadenmarinozzi/AIFunction",
   "scripts": {
     "start": "node .",
     "publish": "npm publish --access public"
   },
   "author": {
     "name": "nekumelon",
-    "url": "https://github.com/nekumelon",
+    "url": "https://github.com/cadenmarinozzi",
     "email": "nekumelon@gmail.com"
   },
   "dependencies": {
